@@ -1,5 +1,5 @@
 /*
-Original Code: Daniel D.
+Original Code: Daniel D - https://github.com/Gastr.
 1/5/17
 */
 bodies = [];
