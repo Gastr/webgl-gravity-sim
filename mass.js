@@ -1,5 +1,6 @@
 function Body() {
-  this.pos = createVector(mouseX - width / 2, mouseY - width / 2, 0);
+  //subtracting half of window to account for the origin being in the center
+  this.pos = createVector(mouseX - width / 2, mouseY - width / 2);
   this.mass = random(10, 30);
   this.r;
   this.g = this.mass * 2;
@@ -37,7 +38,6 @@ function Body() {
     push();
     translate(this.pos.x, this.pos.y, this.pos.z);
     sphere(this.mass);
-
     pop();
   }
 }

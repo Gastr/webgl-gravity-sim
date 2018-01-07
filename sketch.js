@@ -2,7 +2,6 @@
 Original Code: Daniel D.
 1/5/17
 */
-
 bodies = [];
 var trails;
 var initialX, initialY;
@@ -38,12 +37,10 @@ function mouseReleased() {
     bodies.push(new Body());
   }
   dragged = false;
-
 }
 
 function mouseDragged() {
   dragged = true;
   diffX = initialX - mouseX;
   diffY = initialY - mouseY;
-
 }
