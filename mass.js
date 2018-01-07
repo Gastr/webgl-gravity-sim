@@ -1,5 +1,5 @@
 function Body() {
-  this.pos = createVector(mouseX - width / 2, mouseY - width / 2, random(10, -10));
+  this.pos = createVector(mouseX - width / 2, mouseY - width / 2, random(250, -250));
   this.mass = random(10, 30);
   this.r;
   this.g = this.mass * 2;
