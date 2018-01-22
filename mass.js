@@ -28,6 +28,7 @@ function Body() {
         this.pos.add(this.vel);
       }
     }
+    //trail does nothing at the moment
     this.trail.push(this.pos);
     if (this.trail.length > 30) {
       this.trail.shift();
